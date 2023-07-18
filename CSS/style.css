@@ -62,3 +62,72 @@ body{
     background-color: rgb(195, 195, 195);
     border-radius: 8px;
 }
+
+/* end menu  */
+.banner-section{
+    background-image: url("../images/Group\ 14.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.banner-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.banner-photo{
+    width: 50%;
+}
+.banner-image{
+    width: 100%;
+}
+.banner-1-content ul li {
+    list-style: none;
+    padding: 5px;
+    color: #534C64;
+    font-size: 1rem;
+}
+.banner-1-title{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.banner-1-title-2{
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-circle-down,
+.fa-circle-play{
+    color: #F948B2;
+}
+.banner-1-button{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.prymary{
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F948B2;
+    color: white;
+    cursor: pointer;
+
+}
+.banner-1-button-2{
+    background-color:#4EC5F7;
+}
+
+/* end banner 1  */
+
+/* start banner 2  */
+
