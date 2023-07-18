@@ -193,7 +193,11 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.video-section-paragraph{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 .video-image-content{
     display: flex;
@@ -248,5 +252,111 @@ body{
   .image-container:hover .play-button {
     opacity: 1;
   }
+
+  /* end video caed  */
+
+  .poster-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    gap: 120px;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .poster-1-photo{
+    position: relative;
+    width: 50%;
+  }
+  .big-image{
+    width: 100%;
+  }
+  .small-image{
+    position:absolute;
+    bottom:-10%;
+    left: -10%;
+    width: 50%;
+  }
+  .small-photo{
+    width: 100%;
+  }
+  .poster-1-content{
+    text-align: right;
+    width: 70%;
+    margin: auto;
+  }
   
 
+/* end poster 1  */
+
+.play-online{
+    flex-direction: row-reverse;
+}
+.play-online-content{
+    text-align:left;
+}
+.on-small-image{
+    position:absolute;
+    bottom:-10%;
+    left: 70%;
+    width: 50%;
+}
+/* end  */
+.careers-section-1{
+    background-color: #F948B2;
+}
+.spa-paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+.country{
+    text-align: right;
+}
+.careers-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    /* gap: 120px; */
+    margin-top: 50px;
+    padding:50px 15px;
+
+}
+.careers-photo{
+   width: 100%;
+}
+.careers-image{
+    width: 100%;
+}
+.careers-content{
+    color: white;
+  width: 100%;
+    margin: auto;
+}
+.careers-button{
+    background-color: white;
+    color: #F948B2;
+}
+.Careers-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.careers-paragraph{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    }
+
+.spa-paragraph{
+    margin-bottom: 15px;
+}    
+
+.spa-paragraph .path-1  p{
+    padding: 10px 0px;
+}
+.spa-paragraph .country  p{
+    padding: 10px 0px;
+}
