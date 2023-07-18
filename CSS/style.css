@@ -246,7 +246,10 @@ body{
   }
   
   .image-container:hover img {
+    border-radius: 13px;
+    border: 3px solid #f948b2;
     filter: brightness(50%);
+  
   }
   
   .image-container:hover .play-button {
@@ -371,7 +374,7 @@ body{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     padding: 20px;
 
