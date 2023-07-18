@@ -64,7 +64,7 @@ body{
 }
 
 /* end menu  */
-.banner-section{
+.banner-section-1{
     background-image: url("../images/Group\ 14.png");
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -130,4 +130,123 @@ body{
 /* end banner 1  */
 
 /* start banner 2  */
+
+.banner-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.banner-2-photo{
+    width: 100%;
+}
+.banner-2-image{
+    width: 100%;
+}
+.banner-2-content{
+    text-align: right;
+    width: 100%;
+}
+.banner-2-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+.banner-2-paragraph{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.below-button{
+    margin-top: 15px;
+}
+.banner-2-paragraph q{
+    font-weight: 500;
+}
+/* end banner 2  */
+/* start funny video section */
+.video-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.video-section-content{
+    text-align: center;
+}
+
+.video-section-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;margin-bottom: 10px;
+}
+.video-section-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.video-image-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-image-content .vide-card{
+    padding: 15px;
+}
+
+.card{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.hover-play{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+   
+}
+.vide-card-watch{
+    color: white;
+    text-decoration: none;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    height: auto;
+    transition: filter 0.3s ease;
+    width: 100%;
+   margin-bottom: 15px;
+  }
+  
+  .image-container .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    filter: brightness(50%);
+  }
+  
+  .image-container:hover .play-button {
+    opacity: 1;
+  }
+  
 
