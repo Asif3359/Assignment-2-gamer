@@ -319,7 +319,7 @@ body{
     align-items: center;
     max-width: 1250px;
     margin: 0 auto;
-    /* gap: 120px; */
+    gap: 20px;
     margin-top: 50px;
     padding:50px 15px;
 
@@ -360,3 +360,100 @@ body{
 .spa-paragraph .country  p{
     padding: 10px 0px;
 }
+
+/* end online play section  */
+.game-section-1{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.game-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.game-es{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 50px;
+}
+.game-es:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    padding: 9px 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .game-section{
+    display: grid;
+    grid-template-areas:
+    "game-es-1 game-es-2 game-es-3 game-es-4  game-es-5"
+    "game-es-6   game-es-7   game-es-8   game-es-9"
+    ;
+    margin-top: 50px;
+    gap: 20px;
+}
+.game-es-1{
+    grid-area: game-es-1;
+}
+.game-es-2{
+    grid-area: game-es-2;
+}
+.game-es-3{
+    grid-area: game-es-3;
+}
+.game-es-4{
+    grid-area: game-es-4;
+}
+.game-es-5{
+    grid-area: game-es-5;
+}
+.game-es-6{
+    grid-area: game-es-6;
+}
+.game-es-7{
+    grid-area: game-es-7;
+}
+.game-es-8{
+    grid-area: game-es-8;
+}
+.game-es-9{
+    grid-area: game-es-9;
+} */
