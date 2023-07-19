@@ -16,6 +16,7 @@ body{
     max-width: 1250px;
     margin: 0 auto;
     padding: 20px;
+    gap: 20px;
 }
 .logo-section{
     display: flex;
@@ -37,6 +38,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
 }
 .menu-section li{
     list-style: none;
@@ -76,6 +78,7 @@ body{
     align-items: center;
     max-width: 1250px;
     margin: 0 auto;
+    gap: 30px;
 }
 .banner-photo{
     width: 50%;
@@ -203,6 +206,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 .video-image-content .vide-card{
     padding: 15px;
@@ -451,7 +455,32 @@ body{
     margin-top: 10px;
     color: rgb(212, 212, 212);
 }
+/* end footer  */
 
+/* start responsive  */
+@media screen and (max-width:576px) {
+    .careers-section,
+    .poster-1,
+    .video-image-content,
+    .banner-2,
+    .menu-section,
+    .navigation-section{
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+    }
+    .banner-1{
+        flex-direction: column-reverse;
+    }
+    .poster-1-photo,
+    .careers-content,
+    .banner-1-content,
+    .banner-2-content,
+    .poster-1-content{
+        width: 100%;
+        padding: 10px;
+    }
+}
 
 
 
