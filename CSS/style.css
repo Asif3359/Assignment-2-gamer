@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Space Mono', monospace;
@@ -72,7 +73,8 @@ body{
     background-image: url("../images/Group\ 14.png");
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    background-size:contain;
+    height: 100%;
+    
 }
 .banner-1{
     display: flex;
@@ -142,6 +144,8 @@ body{
     align-items: center;
     max-width: 1250px;
     margin: 0 auto;
+    height: 100%;
+    margin-top: 20px;
 }
 .banner-2-photo{
     width: 100%;
@@ -151,7 +155,7 @@ body{
 }
 .banner-2-content{
     text-align: right;
-    width: 100%;
+    width: 60%;
 }
 .banner-2-title{
     font-size: 3rem;
@@ -486,6 +490,15 @@ body{
     .logo-image{
         width: 70px;
     }
+     .banner-image,
+    .banner-photo{
+        width:100%;
+    }
+    .banner-section-1{
+        background-size:contain;
+        background-position: bottom;
+        /* background-size: contain; */
+    }
     .careers-section,
     .poster-1,
     .video-image-content,
@@ -496,8 +509,10 @@ body{
         padding: 10px;
         gap: 20px;
     }
+
     .banner-1{
         flex-direction:column-reverse;
+        padding: 20px 20px;
     }
     .poster-1-photo,
     .careers-content,
@@ -514,11 +529,19 @@ body{
         text-align: center;
     }
     .banner-1-content{
-        width: 100%;
+        width: fit-content;
+        margin: auto;
+        padding: 0px 20px;
     }
+    .banner-1-button{
+        gap: 5px;
+        padding: 10px 0px 0px 0px;
+    }
+
     .banner-1-title-2{
         font-size: 4rem;
     }
+    .banner-1-title,
     .video-section-title{
         font-size: 2rem;
     }
