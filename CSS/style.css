@@ -373,15 +373,17 @@ body{
 .game-section{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
     gap: 10px;
     flex-wrap: wrap;
     padding: 20px;
+    text-align: center;
 
-}
+} 
 .game-es{
     display: flex;
     justify-content: space-around;
+    align-content: center;
     align-items: center;
     text-align: center;
     gap: 10px;
@@ -395,6 +397,60 @@ body{
     padding: 9px 19px;
 }
 
+/* start footer  */
+
+.footer-logo{
+    width: 100px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #0B0223;;
+    color: white;
+}
+.footer-logo-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-title{
+    color: white;
+}
+.story-content{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin: 20px 0px;
+    text-align: center;
+}
+.social-link{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 20px 0px;
+}
+.social-link a{
+    font-size: 30px;
+    color: white;
+    margin: 10px 15px;
+}
+.Privacy-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    text-align: center;  
+    margin: 20px 0px;
+}
+.Privacy-content p{
+    color: rgb(212, 212, 212);
+}
+.last-footer-p{
+    margin-top: 10px;
+    color: rgb(212, 212, 212);
+}
 
 
 
@@ -419,16 +475,16 @@ body{
 
 
 
+/* .game-section-1{
+    width: 100%;
+}
 
 
-
-
-
-/* .game-section{
+.game-section{
     display: grid;
     grid-template-areas:
     "game-es-1 game-es-2 game-es-3 game-es-4  game-es-5"
-    "game-es-6   game-es-7   game-es-8   game-es-9"
+    "game-es-6   game-es-7   game-es-8  game-es-9 game-es-9"
     ;
     margin-top: 50px;
     gap: 20px;
